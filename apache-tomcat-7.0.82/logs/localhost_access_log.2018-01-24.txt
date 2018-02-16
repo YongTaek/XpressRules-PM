@@ -1,0 +1,13 @@
+127.0.0.1 - admin [24/Jan/2018:04:29:36 -0800] "PUT /manager/text/deploy?path=%2Fpm&update=true HTTP/1.1" 200 58
+127.0.0.1 - - [24/Jan/2018:04:30:15 -0800] "GET /pm/ HTTP/1.1" 404 957
+127.0.0.1 - - [24/Jan/2018:04:30:15 -0800] "GET /favicon.ico HTTP/1.1" 200 21630
+127.0.0.1 - admin [24/Jan/2018:04:34:07 -0800] "PUT /manager/text/deploy?path=%2Fpm&update=true HTTP/1.1" 200 58
+127.0.0.1 - - [24/Jan/2018:04:35:52 -0800] "GET /pm/ HTTP/1.1" 200 110
+127.0.0.1 - - [24/Jan/2018:04:35:53 -0800] "GET /pm/config.jsp HTTP/1.1" 200 6448
+127.0.0.1 - - [24/Jan/2018:04:36:06 -0800] "POST /pm/SetInterval HTTP/1.1" 200 6492
+127.0.0.1 - - [24/Jan/2018:04:36:22 -0800] "POST /pm/SetConnection HTTP/1.1" 200 6482
+127.0.0.1 - - [24/Jan/2018:04:36:39 -0800] "GET /pm/api/nodes HTTP/1.1" 200 166624
+127.0.0.1 - - [24/Jan/2018:23:58:38 -0800] "GET /pm/ HTTP/1.1" 200 110
+127.0.0.1 - - [24/Jan/2018:23:58:39 -0800] "GET /pm/config.jsp HTTP/1.1" 200 6448
+127.0.0.1 - - [24/Jan/2018:23:58:39 -0800] "GET /pm/css/theme.css HTTP/1.1" 200 2152
+127.0.0.1 - - [24/Jan/2018:23:58:39 -0800] "GET /pm/css/nav.css HTTP/1.1" 200 726

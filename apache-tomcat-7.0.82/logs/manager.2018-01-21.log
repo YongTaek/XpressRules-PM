@@ -1,0 +1,16 @@
+Jan 21, 2018 8:40:29 PM org.apache.catalina.core.ApplicationContext log
+INFO: Manager: init: Associated with Deployer 'Catalina:type=Deployer,host=localhost'
+Jan 21, 2018 8:40:29 PM org.apache.catalina.core.ApplicationContext log
+INFO: Manager: init: Global resources are available
+Jan 21, 2018 8:40:29 PM org.apache.catalina.core.ApplicationContext log
+INFO: Manager: deploy: Deploying web application '/pm'
+Jan 21, 2018 8:40:29 PM org.apache.catalina.core.ApplicationContext log
+INFO: Manager: Uploading WAR file to c:\XpressRules\Policy-Machine-master\apache-tomcat-7.0.82\webapps\pm.war.tmp
+Jan 21, 2018 8:50:00 PM org.apache.catalina.core.ApplicationContext log
+INFO: Manager: deploy: Deploying web application '/pm'
+Jan 21, 2018 8:50:00 PM org.apache.catalina.core.ApplicationContext log
+INFO: Manager: Uploading WAR file to c:\XpressRules\Policy-Machine-master\apache-tomcat-7.0.82\webapps\pm.war.tmp
+Jan 21, 2018 8:57:29 PM org.apache.catalina.core.ApplicationContext log
+INFO: Manager: deploy: Deploying web application '/pm'
+Jan 21, 2018 8:57:29 PM org.apache.catalina.core.ApplicationContext log
+INFO: Manager: Uploading WAR file to c:\XpressRules\Policy-Machine-master\apache-tomcat-7.0.82\webapps\pm.war.tmp

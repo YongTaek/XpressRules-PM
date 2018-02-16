@@ -1,0 +1,90 @@
+Jan 18, 2018 11:59:02 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Server version:        Apache Tomcat/7.0.82
+Jan 18, 2018 11:59:02 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Server built:          Sep 29 2017 12:23:15 UTC
+Jan 18, 2018 11:59:02 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Server number:         7.0.82.0
+Jan 18, 2018 11:59:02 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: OS Name:               Windows 7
+Jan 18, 2018 11:59:02 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: OS Version:            6.1
+Jan 18, 2018 11:59:02 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Architecture:          amd64
+Jan 18, 2018 11:59:02 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Java Home:             c:\Program Files\Java\jdk1.8.0_121\jre
+Jan 18, 2018 11:59:02 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: JVM Version:           1.8.0_121-b13
+Jan 18, 2018 11:59:02 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: JVM Vendor:            Oracle Corporation
+Jan 18, 2018 11:59:02 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: CATALINA_BASE:         c:/XpressRules/Policy-Machine-master/apache-tomcat-7.0.82
+Jan 18, 2018 11:59:02 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: CATALINA_HOME:         c:/XpressRules/Policy-Machine-master/apache-tomcat-7.0.82
+Jan 18, 2018 11:59:02 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -Djava.util.logging.config.file=c:/XpressRules/Policy-Machine-master/apache-tomcat-7.0.82/conf/logging.properties
+Jan 18, 2018 11:59:02 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+Jan 18, 2018 11:59:02 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+Jan 18, 2018 11:59:02 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -Djava.endorsed.dirs=c:/XpressRules/Policy-Machine-master/apache-tomcat-7.0.82/endorsed
+Jan 18, 2018 11:59:02 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -Dcatalina.base=c:/XpressRules/Policy-Machine-master/apache-tomcat-7.0.82
+Jan 18, 2018 11:59:02 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -Dcatalina.home=c:/XpressRules/Policy-Machine-master/apache-tomcat-7.0.82
+Jan 18, 2018 11:59:02 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -Djava.io.tmpdir=c:/XpressRules/Policy-Machine-master/apache-tomcat-7.0.82/temp
+Jan 18, 2018 11:59:02 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -Djavax.net.preferIPv4Stack=true
+Jan 18, 2018 11:59:02 PM org.apache.catalina.core.AprLifecycleListener lifecycleEvent
+INFO: Loaded APR based Apache Tomcat Native library 1.2.14 using APR version 1.6.2.
+Jan 18, 2018 11:59:02 PM org.apache.catalina.core.AprLifecycleListener lifecycleEvent
+INFO: APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true].
+Jan 18, 2018 11:59:02 PM org.apache.catalina.core.AprLifecycleListener initializeSSL
+INFO: OpenSSL successfully initialized (OpenSSL 1.0.2l  25 May 2017)
+Jan 18, 2018 11:59:03 PM org.apache.coyote.AbstractProtocol init
+INFO: Initializing ProtocolHandler ["http-apr-8080"]
+Jan 18, 2018 11:59:03 PM org.apache.coyote.AbstractProtocol init
+INFO: Initializing ProtocolHandler ["ajp-apr-8009"]
+Jan 18, 2018 11:59:03 PM org.apache.catalina.startup.Catalina load
+INFO: Initialization processed in 2317 ms
+Jan 18, 2018 11:59:03 PM org.apache.catalina.core.StandardService startInternal
+INFO: Starting service Catalina
+Jan 18, 2018 11:59:03 PM org.apache.catalina.core.StandardEngine startInternal
+INFO: Starting Servlet Engine: Apache Tomcat/7.0.82
+Jan 18, 2018 11:59:04 PM org.apache.catalina.startup.HostConfig deployWAR
+INFO: Deploying web application archive C:\XpressRules\Policy-Machine-master\apache-tomcat-7.0.82\webapps\pm.war
+Jan 18, 2018 11:59:12 PM org.apache.catalina.loader.WebappClassLoaderBase validateJarFile
+INFO: validateJarFile(c:\XpressRules\Policy-Machine-master\apache-tomcat-7.0.82\webapps\pm\WEB-INF\lib\javax.servlet-api-3.1.0.jar) - jar not loaded. See Servlet Spec 3.0, section 10.7.2. Offending class: javax/servlet/Servlet.class
+Jan 18, 2018 11:59:24 PM org.apache.catalina.startup.TldConfig execute
+INFO: At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+Jan 18, 2018 11:59:24 PM org.apache.catalina.util.SessionIdGeneratorBase createSecureRandom
+WARNING: Creation of SecureRandom instance for session ID generation using [SHA1PRNG] took [203] milliseconds.
+Jan 18, 2018 11:59:26 PM org.apache.catalina.startup.HostConfig deployWAR
+INFO: Deployment of web application archive C:\XpressRules\Policy-Machine-master\apache-tomcat-7.0.82\webapps\pm.war has finished in 22,304 ms
+Jan 18, 2018 11:59:26 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory C:\XpressRules\Policy-Machine-master\apache-tomcat-7.0.82\webapps\docs
+Jan 18, 2018 11:59:26 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deployment of web application directory C:\XpressRules\Policy-Machine-master\apache-tomcat-7.0.82\webapps\docs has finished in 31 ms
+Jan 18, 2018 11:59:26 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory C:\XpressRules\Policy-Machine-master\apache-tomcat-7.0.82\webapps\examples
+Jan 18, 2018 11:59:28 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deployment of web application directory C:\XpressRules\Policy-Machine-master\apache-tomcat-7.0.82\webapps\examples has finished in 2,013 ms
+Jan 18, 2018 11:59:28 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory C:\XpressRules\Policy-Machine-master\apache-tomcat-7.0.82\webapps\host-manager
+Jan 18, 2018 11:59:28 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deployment of web application directory C:\XpressRules\Policy-Machine-master\apache-tomcat-7.0.82\webapps\host-manager has finished in 187 ms
+Jan 18, 2018 11:59:28 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory C:\XpressRules\Policy-Machine-master\apache-tomcat-7.0.82\webapps\manager
+Jan 18, 2018 11:59:28 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deployment of web application directory C:\XpressRules\Policy-Machine-master\apache-tomcat-7.0.82\webapps\manager has finished in 47 ms
+Jan 18, 2018 11:59:28 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory C:\XpressRules\Policy-Machine-master\apache-tomcat-7.0.82\webapps\ROOT
+Jan 18, 2018 11:59:28 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deployment of web application directory C:\XpressRules\Policy-Machine-master\apache-tomcat-7.0.82\webapps\ROOT has finished in 46 ms
+Jan 18, 2018 11:59:28 PM org.apache.coyote.AbstractProtocol start
+INFO: Starting ProtocolHandler ["http-apr-8080"]
+Jan 18, 2018 11:59:28 PM org.apache.coyote.AbstractProtocol start
+INFO: Starting ProtocolHandler ["ajp-apr-8009"]
+Jan 18, 2018 11:59:28 PM org.apache.catalina.startup.Catalina start
+INFO: Server startup in 24884 ms

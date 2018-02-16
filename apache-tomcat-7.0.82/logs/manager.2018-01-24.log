@@ -1,0 +1,8 @@
+Jan 24, 2018 4:29:32 AM org.apache.catalina.core.ApplicationContext log
+INFO: Manager: deploy: Deploying web application '/pm'
+Jan 24, 2018 4:29:32 AM org.apache.catalina.core.ApplicationContext log
+INFO: Manager: Uploading WAR file to c:\XpressRules\Policy-Machine-master\apache-tomcat-7.0.82\webapps\pm.war.tmp
+Jan 24, 2018 4:33:49 AM org.apache.catalina.core.ApplicationContext log
+INFO: Manager: deploy: Deploying web application '/pm'
+Jan 24, 2018 4:33:49 AM org.apache.catalina.core.ApplicationContext log
+INFO: Manager: Uploading WAR file to c:\XpressRules\Policy-Machine-master\apache-tomcat-7.0.82\webapps\pm.war.tmp

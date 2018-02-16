@@ -1,0 +1,12 @@
+0:0:0:0:0:0:0:1 - - [18/Nov/2017:00:38:37 -0800] "POST /policy-machine-master/src/main/webapp/SetConnection HTTP/1.1" 404 1121
+127.0.0.1 - - [18/Nov/2017:00:44:53 -0800] "POST /policy-machine-master/src/main/webapp/SetConnection HTTP/1.1" 404 1121
+0:0:0:0:0:0:0:1 - - [18/Nov/2017:00:48:27 -0800] "POST /policy-machine-master/src/main/webapp/SetConnection HTTP/1.1" 404 1121
+0:0:0:0:0:0:0:1 - - [18/Nov/2017:01:00:37 -0800] "GET /config.jsp HTTP/1.1" 404 1080
+0:0:0:0:0:0:0:1 - - [18/Nov/2017:01:00:57 -0800] "POST /policy-machine-master/src/main/webapp/SetInterval HTTP/1.1" 404 1119
+0:0:0:0:0:0:0:1 - - [18/Nov/2017:01:01:07 -0800] "POST /policy-machine-master/src/main/webapp/SetConnection HTTP/1.1" 404 1121
+0:0:0:0:0:0:0:1 - - [18/Nov/2017:01:03:49 -0800] "GET /policy-machine-master/src/main/webapp/config.jsp HTTP/1.1" 200 5517
+0:0:0:0:0:0:0:1 - - [18/Nov/2017:01:03:50 -0800] "GET /policy-machine-master/src/main/webapp/css/nav.css HTTP/1.1" 304 -
+0:0:0:0:0:0:0:1 - - [18/Nov/2017:01:03:50 -0800] "GET /policy-machine-master/src/main/webapp/css/theme.css HTTP/1.1" 304 -
+0:0:0:0:0:0:0:1 - - [18/Nov/2017:01:09:20 -0800] "GET /policy-machine-master/src/main/webapp/config.jsp HTTP/1.1" 200 5517
+0:0:0:0:0:0:0:1 - - [18/Nov/2017:01:09:20 -0800] "GET /policy-machine-master/src/main/webapp/css/nav.css HTTP/1.1" 304 -
+0:0:0:0:0:0:0:1 - - [18/Nov/2017:01:09:20 -0800] "GET /policy-machine-master/src/main/webapp/css/theme.css HTTP/1.1" 304 -

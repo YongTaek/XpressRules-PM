@@ -1,0 +1,128 @@
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
++ In spite of the ERROR at l. 119, this deployment worked, after making changes to Neo4j +
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+Microsoft Windows [Version 6.1.7601]
+Copyright (c) 2009 Microsoft Corporation.  All rights reserved.
+
+C:\Users\RonT>cd C:\XpressRules\Policy-Machine-master
+
+C:\XpressRules\Policy-Machine-master>mvn install
+Picked up _JAVA_OPTIONS: -Djavax.net.preferIPv4Stack=true
+[INFO] Scanning for projects...
+[INFO]
+[INFO] ------------------------------------------------------------------------
+[INFO] Building policyserver 0.0.1-SNAPSHOT
+[INFO] ------------------------------------------------------------------------
+[INFO]
+[INFO] --- maven-resources-plugin:2.6:resources (default-resources) @ policyserver ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] Copying 1 resource
+[INFO]
+[INFO] --- maven-compiler-plugin:2.5.1:compile (default-compile) @ policyserver ---
+[INFO] Nothing to compile - all classes are up to date
+[INFO]
+[INFO] --- maven-resources-plugin:2.6:testResources (default-testResources) @ policyserver ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] skip non existing resourceDirectory C:\XpressRules\Policy-Machine-master\src\test\resources
+[INFO]
+[INFO] --- maven-compiler-plugin:2.5.1:testCompile (default-testCompile) @ policyserver ---
+[INFO] No sources to compile
+[INFO]
+[INFO] --- maven-surefire-plugin:2.12.4:test (default-test) @ policyserver ---
+[INFO] No tests to run.
+[INFO]
+[INFO] --- maven-war-plugin:2.2:war (default-war) @ policyserver ---
+[INFO] Packaging webapp
+[INFO] Assembling webapp [policyserver] in [C:\XpressRules\Policy-Machine-master\target\policyserver]
+[INFO] Processing war project
+[INFO] Copying webapp resources [C:\XpressRules\Policy-Machine-master\src\main\webapp]
+[INFO] Webapp assembled in [51824 msecs]
+[INFO] Building war: C:\XpressRules\Policy-Machine-master\target\policyserver.war
+[INFO] WEB-INF\web.xml already added, skipping
+[INFO]
+[INFO] --- maven-install-plugin:2.4:install (default-install) @ policyserver ---
+[INFO] Installing C:\XpressRules\Policy-Machine-master\target\policyserver.war to C:\Users\RonT\.m2\repository\gov\nist\policyserver\0.0.1-SNAPSH
+OT\policyserver-0.0.1-SNAPSHOT.war
+[INFO] Installing C:\XpressRules\Policy-Machine-master\pom.xml to C:\Users\RonT\.m2\repository\gov\nist\policyserver\0.0.1-SNAPSHOT\policyserver-
+0.0.1-SNAPSHOT.pom
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD SUCCESS
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time: 01:12 min
+[INFO] Finished at: 2018-01-19T00:04:14-08:00
+[INFO] Final Memory: 15M/245M
+[INFO] ------------------------------------------------------------------------
+
+C:\XpressRules\Policy-Machine-master>mvn tomcat7:deploy
+Picked up _JAVA_OPTIONS: -Djavax.net.preferIPv4Stack=true
+[INFO] Scanning for projects...
+[INFO]
+[INFO] ------------------------------------------------------------------------
+[INFO] Building policyserver 0.0.1-SNAPSHOT
+[INFO] ------------------------------------------------------------------------
+[INFO]
+[INFO] >>> tomcat7-maven-plugin:2.2:deploy (default-cli) > package @ policyserver >>>
+[INFO]
+[INFO] --- maven-resources-plugin:2.6:resources (default-resources) @ policyserver ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] Copying 1 resource
+[INFO]
+[INFO] --- maven-compiler-plugin:2.5.1:compile (default-compile) @ policyserver ---
+[INFO] Nothing to compile - all classes are up to date
+[INFO]
+[INFO] --- maven-resources-plugin:2.6:testResources (default-testResources) @ policyserver ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] skip non existing resourceDirectory C:\XpressRules\Policy-Machine-master\src\test\resources
+[INFO]
+[INFO] --- maven-compiler-plugin:2.5.1:testCompile (default-testCompile) @ policyserver ---
+[INFO] No sources to compile
+[INFO]
+[INFO] --- maven-surefire-plugin:2.12.4:test (default-test) @ policyserver ---
+[INFO] No tests to run.
+[INFO]
+[INFO] --- maven-war-plugin:2.2:war (default-war) @ policyserver ---
+[INFO] Packaging webapp
+[INFO] Assembling webapp [policyserver] in [C:\XpressRules\Policy-Machine-master\target\policyserver]
+[INFO] Processing war project
+[INFO] Copying webapp resources [C:\XpressRules\Policy-Machine-master\src\main\webapp]
+[INFO] Webapp assembled in [1170 msecs]
+[INFO] Building war: C:\XpressRules\Policy-Machine-master\target\policyserver.war
+[INFO] WEB-INF\web.xml already added, skipping
+[INFO]
+[INFO] <<< tomcat7-maven-plugin:2.2:deploy (default-cli) < package @ policyserver <<<
+[INFO]
+[INFO]
+[INFO] --- tomcat7-maven-plugin:2.2:deploy (default-cli) @ policyserver ---
+[INFO] Deploying war to http://localhost:8080/pm
+Uploading: http://localhost:8080/manager/text/deploy?path=%2Fpm
+2098/74948 KB
+[INFO] I/O exception (java.net.SocketException) caught when processing request: Software caused connection abort: socket write error
+[INFO] Retrying request
+Uploading: http://localhost:8080/manager/text/deploy?path=%2Fpm
+2070/74948 KB
+[INFO] I/O exception (java.net.SocketException) caught when processing request: Software caused connection abort: socket write error
+[INFO] Retrying request
+Uploading: http://localhost:8080/manager/text/deploy?path=%2Fpm
+2070/74948 KB
+[INFO] I/O exception (java.net.SocketException) caught when processing request: Software caused connection abort: socket write error
+[INFO] Retrying request
+Uploading: http://localhost:8080/manager/text/deploy?path=%2Fpm
+2070/74948 KB
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD FAILURE
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time: 33.181 s
+[INFO] Finished at: 2018-01-19T00:06:12-08:00
+[INFO] Final Memory: 20M/166M
+[INFO] ------------------------------------------------------------------------
+[ERROR] Failed to execute goal org.apache.tomcat.maven:tomcat7-maven-plugin:2.2:deploy (default-cli) on project policyserver: Cannot invoke Tomca
+t manager: Software caused connection abort: socket write error -> [Help 1]
+[ERROR]
+[ERROR] To see the full stack trace of the errors, re-run Maven with the -e switch.
+[ERROR] Re-run Maven using the -X switch to enable full debug logging.
+[ERROR]
+[ERROR] For more information about the errors and possible solutions, please read the following articles:
+[ERROR] [Help 1] http://cwiki.apache.org/confluence/display/MAVEN/MojoExecutionException
+
+C:\XpressRules\Policy-Machine-master>

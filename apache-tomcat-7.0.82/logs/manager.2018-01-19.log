@@ -1,0 +1,12 @@
+Jan 19, 2018 12:06:12 AM org.apache.catalina.core.ApplicationContext log
+INFO: Manager: init: Associated with Deployer 'Catalina:type=Deployer,host=localhost'
+Jan 19, 2018 12:06:12 AM org.apache.catalina.core.ApplicationContext log
+INFO: Manager: init: Global resources are available
+Jan 19, 2018 12:06:12 AM org.apache.catalina.core.ApplicationContext log
+INFO: Manager: deploy: Deploying web application '/pm'
+Jan 19, 2018 12:06:12 AM org.apache.catalina.core.ApplicationContext log
+INFO: Manager: deploy: Deploying web application '/pm'
+Jan 19, 2018 12:06:12 AM org.apache.catalina.core.ApplicationContext log
+INFO: Manager: deploy: Deploying web application '/pm'
+Jan 19, 2018 12:06:12 AM org.apache.catalina.core.ApplicationContext log
+INFO: Manager: deploy: Deploying web application '/pm'

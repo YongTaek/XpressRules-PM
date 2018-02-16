@@ -1,0 +1,257 @@
+Jan 24, 2018 4:29:35 AM org.apache.catalina.startup.HostConfig undeploy
+INFO: Undeploying context [/pm]
+Jan 24, 2018 4:29:35 AM org.apache.catalina.loader.WebappClassLoaderBase clearReferencesJdbc
+SEVERE: The web application [/pm] registered the JDBC driver [org.neo4j.jdbc.Driver] but failed to unregister it when the web application was stopped. To prevent a memory leak, the JDBC Driver has been forcibly unregistered.
+Jan 24, 2018 4:29:35 AM org.apache.catalina.loader.WebappClassLoaderBase clearReferencesJdbc
+SEVERE: The web application [/pm] registered the JDBC driver [org.neo4j.jdbc.http.HttpDriver] but failed to unregister it when the web application was stopped. To prevent a memory leak, the JDBC Driver has been forcibly unregistered.
+Jan 24, 2018 4:29:35 AM org.apache.catalina.loader.WebappClassLoaderBase clearReferencesJdbc
+SEVERE: The web application [/pm] registered the JDBC driver [org.neo4j.jdbc.Driver] but failed to unregister it when the web application was stopped. To prevent a memory leak, the JDBC Driver has been forcibly unregistered.
+Jan 24, 2018 4:29:35 AM org.apache.catalina.loader.WebappClassLoaderBase clearReferencesJdbc
+SEVERE: The web application [/pm] registered the JDBC driver [org.neo4j.jdbc.http.HttpDriver] but failed to unregister it when the web application was stopped. To prevent a memory leak, the JDBC Driver has been forcibly unregistered.
+Jan 24, 2018 4:29:35 AM org.apache.catalina.loader.WebappClassLoaderBase clearReferencesThreads
+SEVERE: The web application [/pm] appears to have started a thread named [Thread-17] but has failed to stop it. This is very likely to create a memory leak.
+Jan 24, 2018 4:29:35 AM org.apache.catalina.loader.WebappClassLoaderBase clearReferencesThreads
+SEVERE: The web application [/pm] appears to have started a thread named [Thread-18] but has failed to stop it. This is very likely to create a memory leak.
+Jan 24, 2018 4:29:35 AM org.apache.catalina.startup.ExpandWar deleteDir
+SEVERE: [C:\XpressRules\Policy-Machine-master\apache-tomcat-7.0.82\work\Catalina\localhost\pm\org\apache] could not be completely deleted. The presence of the remaining files may cause problems
+Jan 24, 2018 4:29:35 AM org.apache.catalina.startup.ExpandWar deleteDir
+SEVERE: [C:\XpressRules\Policy-Machine-master\apache-tomcat-7.0.82\work\Catalina\localhost\pm\org] could not be completely deleted. The presence of the remaining files may cause problems
+Jan 24, 2018 4:29:35 AM org.apache.catalina.startup.ExpandWar deleteDir
+SEVERE: [C:\XpressRules\Policy-Machine-master\apache-tomcat-7.0.82\work\Catalina\localhost\pm] could not be completely deleted. The presence of the remaining files may cause problems
+Jan 24, 2018 4:29:35 AM org.apache.catalina.startup.ExpandWar delete
+SEVERE: [C:\XpressRules\Policy-Machine-master\apache-tomcat-7.0.82\work\Catalina\localhost\pm] could not be completely deleted. The presence of the remaining files may cause problems
+Jan 24, 2018 4:29:36 AM org.apache.catalina.startup.ExpandWar deleteDir
+SEVERE: [C:\XpressRules\Policy-Machine-master\apache-tomcat-7.0.82\webapps\pm] could not be completely deleted. The presence of the remaining files may cause problems
+Jan 24, 2018 4:29:36 AM org.apache.catalina.startup.ExpandWar delete
+SEVERE: [C:\XpressRules\Policy-Machine-master\apache-tomcat-7.0.82\webapps\pm] could not be completely deleted. The presence of the remaining files may cause problems
+Jan 24, 2018 4:29:36 AM org.apache.catalina.startup.HostConfig deployWAR
+INFO: Deploying web application archive C:\XpressRules\Policy-Machine-master\apache-tomcat-7.0.82\webapps\pm.war
+Jan 24, 2018 4:29:36 AM org.apache.catalina.startup.HostConfig deployWAR
+INFO: Deployment of web application archive C:\XpressRules\Policy-Machine-master\apache-tomcat-7.0.82\webapps\pm.war has finished in 15 ms
+Jan 24, 2018 4:30:57 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Server version:        Apache Tomcat/7.0.82
+Jan 24, 2018 4:30:57 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Server built:          Sep 29 2017 12:23:15 UTC
+Jan 24, 2018 4:30:57 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Server number:         7.0.82.0
+Jan 24, 2018 4:30:57 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: OS Name:               Windows 7
+Jan 24, 2018 4:30:57 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: OS Version:            6.1
+Jan 24, 2018 4:30:57 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Architecture:          amd64
+Jan 24, 2018 4:30:57 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Java Home:             c:\Program Files\Java\jdk1.8.0_121\jre
+Jan 24, 2018 4:30:57 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: JVM Version:           1.8.0_121-b13
+Jan 24, 2018 4:30:57 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: JVM Vendor:            Oracle Corporation
+Jan 24, 2018 4:30:57 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: CATALINA_BASE:         c:/XpressRules/Policy-Machine-master/apache-tomcat-7.0.82
+Jan 24, 2018 4:30:57 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: CATALINA_HOME:         c:/XpressRules/Policy-Machine-master/apache-tomcat-7.0.82
+Jan 24, 2018 4:30:57 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -Djava.util.logging.config.file=c:/XpressRules/Policy-Machine-master/apache-tomcat-7.0.82/conf/logging.properties
+Jan 24, 2018 4:30:57 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+Jan 24, 2018 4:30:57 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+Jan 24, 2018 4:30:57 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -Djava.endorsed.dirs=c:/XpressRules/Policy-Machine-master/apache-tomcat-7.0.82/endorsed
+Jan 24, 2018 4:30:57 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -Dcatalina.base=c:/XpressRules/Policy-Machine-master/apache-tomcat-7.0.82
+Jan 24, 2018 4:30:57 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -Dcatalina.home=c:/XpressRules/Policy-Machine-master/apache-tomcat-7.0.82
+Jan 24, 2018 4:30:57 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -Djava.io.tmpdir=c:/XpressRules/Policy-Machine-master/apache-tomcat-7.0.82/temp
+Jan 24, 2018 4:30:57 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -Djavax.net.preferIPv4Stack=true
+Jan 24, 2018 4:30:57 AM org.apache.catalina.core.AprLifecycleListener lifecycleEvent
+INFO: Loaded APR based Apache Tomcat Native library 1.2.14 using APR version 1.6.2.
+Jan 24, 2018 4:30:57 AM org.apache.catalina.core.AprLifecycleListener lifecycleEvent
+INFO: APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true].
+Jan 24, 2018 4:30:58 AM org.apache.catalina.core.AprLifecycleListener initializeSSL
+INFO: OpenSSL successfully initialized (OpenSSL 1.0.2l  25 May 2017)
+Jan 24, 2018 4:30:58 AM org.apache.coyote.AbstractProtocol init
+INFO: Initializing ProtocolHandler ["http-apr-8080"]
+Jan 24, 2018 4:30:58 AM org.apache.coyote.AbstractProtocol init
+SEVERE: Failed to initialize end point associated with ProtocolHandler ["http-apr-8080"]
+java.lang.Exception: Socket bind failed: [730048] Only one usage of each socket address (protocol/network address/port) is normally permitted.  
+	at org.apache.tomcat.util.net.AprEndpoint.bind(AprEndpoint.java:481)
+	at org.apache.tomcat.util.net.AbstractEndpoint.init(AbstractEndpoint.java:728)
+	at org.apache.coyote.AbstractProtocol.init(AbstractProtocol.java:452)
+	at org.apache.catalina.connector.Connector.initInternal(Connector.java:978)
+	at org.apache.catalina.util.LifecycleBase.init(LifecycleBase.java:102)
+	at org.apache.catalina.core.StandardService.initInternal(StandardService.java:560)
+	at org.apache.catalina.util.LifecycleBase.init(LifecycleBase.java:102)
+	at org.apache.catalina.core.StandardServer.initInternal(StandardServer.java:840)
+	at org.apache.catalina.util.LifecycleBase.init(LifecycleBase.java:102)
+	at org.apache.catalina.startup.Catalina.load(Catalina.java:643)
+	at org.apache.catalina.startup.Catalina.load(Catalina.java:668)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.apache.catalina.startup.Bootstrap.load(Bootstrap.java:253)
+	at org.apache.catalina.startup.Bootstrap.main(Bootstrap.java:427)
+
+Jan 24, 2018 4:30:58 AM org.apache.catalina.core.StandardService initInternal
+SEVERE: Failed to initialize connector [Connector[HTTP/1.1-8080]]
+org.apache.catalina.LifecycleException: Failed to initialize component [Connector[HTTP/1.1-8080]]
+	at org.apache.catalina.util.LifecycleBase.init(LifecycleBase.java:107)
+	at org.apache.catalina.core.StandardService.initInternal(StandardService.java:560)
+	at org.apache.catalina.util.LifecycleBase.init(LifecycleBase.java:102)
+	at org.apache.catalina.core.StandardServer.initInternal(StandardServer.java:840)
+	at org.apache.catalina.util.LifecycleBase.init(LifecycleBase.java:102)
+	at org.apache.catalina.startup.Catalina.load(Catalina.java:643)
+	at org.apache.catalina.startup.Catalina.load(Catalina.java:668)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.apache.catalina.startup.Bootstrap.load(Bootstrap.java:253)
+	at org.apache.catalina.startup.Bootstrap.main(Bootstrap.java:427)
+Caused by: org.apache.catalina.LifecycleException: Protocol handler initialization failed
+	at org.apache.catalina.connector.Connector.initInternal(Connector.java:980)
+	at org.apache.catalina.util.LifecycleBase.init(LifecycleBase.java:102)
+	... 12 more
+Caused by: java.lang.Exception: Socket bind failed: [730048] Only one usage of each socket address (protocol/network address/port) is normally permitted.  
+	at org.apache.tomcat.util.net.AprEndpoint.bind(AprEndpoint.java:481)
+	at org.apache.tomcat.util.net.AbstractEndpoint.init(AbstractEndpoint.java:728)
+	at org.apache.coyote.AbstractProtocol.init(AbstractProtocol.java:452)
+	at org.apache.catalina.connector.Connector.initInternal(Connector.java:978)
+	... 13 more
+
+Jan 24, 2018 4:30:58 AM org.apache.coyote.AbstractProtocol init
+INFO: Initializing ProtocolHandler ["ajp-apr-8009"]
+Jan 24, 2018 4:30:58 AM org.apache.coyote.AbstractProtocol init
+SEVERE: Failed to initialize end point associated with ProtocolHandler ["ajp-apr-8009"]
+java.lang.Exception: Socket bind failed: [730048] Only one usage of each socket address (protocol/network address/port) is normally permitted.  
+	at org.apache.tomcat.util.net.AprEndpoint.bind(AprEndpoint.java:481)
+	at org.apache.tomcat.util.net.AbstractEndpoint.init(AbstractEndpoint.java:728)
+	at org.apache.coyote.AbstractProtocol.init(AbstractProtocol.java:452)
+	at org.apache.catalina.connector.Connector.initInternal(Connector.java:978)
+	at org.apache.catalina.util.LifecycleBase.init(LifecycleBase.java:102)
+	at org.apache.catalina.core.StandardService.initInternal(StandardService.java:560)
+	at org.apache.catalina.util.LifecycleBase.init(LifecycleBase.java:102)
+	at org.apache.catalina.core.StandardServer.initInternal(StandardServer.java:840)
+	at org.apache.catalina.util.LifecycleBase.init(LifecycleBase.java:102)
+	at org.apache.catalina.startup.Catalina.load(Catalina.java:643)
+	at org.apache.catalina.startup.Catalina.load(Catalina.java:668)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.apache.catalina.startup.Bootstrap.load(Bootstrap.java:253)
+	at org.apache.catalina.startup.Bootstrap.main(Bootstrap.java:427)
+
+Jan 24, 2018 4:30:58 AM org.apache.catalina.core.StandardService initInternal
+SEVERE: Failed to initialize connector [Connector[AJP/1.3-8009]]
+org.apache.catalina.LifecycleException: Failed to initialize component [Connector[AJP/1.3-8009]]
+	at org.apache.catalina.util.LifecycleBase.init(LifecycleBase.java:107)
+	at org.apache.catalina.core.StandardService.initInternal(StandardService.java:560)
+	at org.apache.catalina.util.LifecycleBase.init(LifecycleBase.java:102)
+	at org.apache.catalina.core.StandardServer.initInternal(StandardServer.java:840)
+	at org.apache.catalina.util.LifecycleBase.init(LifecycleBase.java:102)
+	at org.apache.catalina.startup.Catalina.load(Catalina.java:643)
+	at org.apache.catalina.startup.Catalina.load(Catalina.java:668)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.apache.catalina.startup.Bootstrap.load(Bootstrap.java:253)
+	at org.apache.catalina.startup.Bootstrap.main(Bootstrap.java:427)
+Caused by: org.apache.catalina.LifecycleException: Protocol handler initialization failed
+	at org.apache.catalina.connector.Connector.initInternal(Connector.java:980)
+	at org.apache.catalina.util.LifecycleBase.init(LifecycleBase.java:102)
+	... 12 more
+Caused by: java.lang.Exception: Socket bind failed: [730048] Only one usage of each socket address (protocol/network address/port) is normally permitted.  
+	at org.apache.tomcat.util.net.AprEndpoint.bind(AprEndpoint.java:481)
+	at org.apache.tomcat.util.net.AbstractEndpoint.init(AbstractEndpoint.java:728)
+	at org.apache.coyote.AbstractProtocol.init(AbstractProtocol.java:452)
+	at org.apache.catalina.connector.Connector.initInternal(Connector.java:978)
+	... 13 more
+
+Jan 24, 2018 4:30:58 AM org.apache.catalina.startup.Catalina load
+INFO: Initialization processed in 1210 ms
+Jan 24, 2018 4:30:58 AM org.apache.catalina.core.StandardService startInternal
+INFO: Starting service Catalina
+Jan 24, 2018 4:30:58 AM org.apache.catalina.core.StandardEngine startInternal
+INFO: Starting Servlet Engine: Apache Tomcat/7.0.82
+Jan 24, 2018 4:30:58 AM org.apache.catalina.startup.HostConfig deployWAR
+INFO: Deploying web application archive C:\XpressRules\Policy-Machine-master\apache-tomcat-7.0.82\webapps\pm.war
+Jan 24, 2018 4:30:58 AM org.apache.catalina.util.SessionIdGeneratorBase createSecureRandom
+WARNING: Creation of SecureRandom instance for session ID generation using [SHA1PRNG] took [187] milliseconds.
+Jan 24, 2018 4:30:58 AM org.apache.catalina.startup.HostConfig deployWAR
+INFO: Deployment of web application archive C:\XpressRules\Policy-Machine-master\apache-tomcat-7.0.82\webapps\pm.war has finished in 546 ms
+Jan 24, 2018 4:30:58 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory C:\XpressRules\Policy-Machine-master\apache-tomcat-7.0.82\webapps\docs
+Jan 24, 2018 4:30:58 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deployment of web application directory C:\XpressRules\Policy-Machine-master\apache-tomcat-7.0.82\webapps\docs has finished in 62 ms
+Jan 24, 2018 4:30:58 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory C:\XpressRules\Policy-Machine-master\apache-tomcat-7.0.82\webapps\examples
+Jan 24, 2018 4:31:00 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deployment of web application directory C:\XpressRules\Policy-Machine-master\apache-tomcat-7.0.82\webapps\examples has finished in 1,856 ms
+Jan 24, 2018 4:31:00 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory C:\XpressRules\Policy-Machine-master\apache-tomcat-7.0.82\webapps\host-manager
+Jan 24, 2018 4:31:00 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deployment of web application directory C:\XpressRules\Policy-Machine-master\apache-tomcat-7.0.82\webapps\host-manager has finished in 219 ms
+Jan 24, 2018 4:31:00 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory C:\XpressRules\Policy-Machine-master\apache-tomcat-7.0.82\webapps\manager
+Jan 24, 2018 4:31:00 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deployment of web application directory C:\XpressRules\Policy-Machine-master\apache-tomcat-7.0.82\webapps\manager has finished in 47 ms
+Jan 24, 2018 4:31:00 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory C:\XpressRules\Policy-Machine-master\apache-tomcat-7.0.82\webapps\ROOT
+Jan 24, 2018 4:31:01 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deployment of web application directory C:\XpressRules\Policy-Machine-master\apache-tomcat-7.0.82\webapps\ROOT has finished in 46 ms
+Jan 24, 2018 4:31:01 AM org.apache.catalina.startup.Catalina start
+INFO: Server startup in 2825 ms
+Jan 24, 2018 4:31:01 AM org.apache.catalina.core.StandardServer await
+SEVERE: StandardServer.await: create[localhost:8005]: 
+java.net.BindException: Address already in use: JVM_Bind
+	at java.net.DualStackPlainSocketImpl.bind0(Native Method)
+	at java.net.DualStackPlainSocketImpl.socketBind(DualStackPlainSocketImpl.java:106)
+	at java.net.AbstractPlainSocketImpl.bind(AbstractPlainSocketImpl.java:387)
+	at java.net.PlainSocketImpl.bind(PlainSocketImpl.java:190)
+	at java.net.ServerSocket.bind(ServerSocket.java:375)
+	at java.net.ServerSocket.<init>(ServerSocket.java:237)
+	at org.apache.catalina.core.StandardServer.await(StandardServer.java:444)
+	at org.apache.catalina.startup.Catalina.await(Catalina.java:782)
+	at org.apache.catalina.startup.Catalina.start(Catalina.java:728)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.apache.catalina.startup.Bootstrap.start(Bootstrap.java:294)
+	at org.apache.catalina.startup.Bootstrap.main(Bootstrap.java:428)
+
+Jan 24, 2018 4:31:01 AM org.apache.coyote.AbstractProtocol pause
+INFO: Pausing ProtocolHandler ["http-apr-8080"]
+Jan 24, 2018 4:31:01 AM org.apache.coyote.AbstractProtocol pause
+INFO: Pausing ProtocolHandler ["ajp-apr-8009"]
+Jan 24, 2018 4:31:01 AM org.apache.catalina.core.StandardService stopInternal
+INFO: Stopping service Catalina
+Jan 24, 2018 4:31:01 AM org.apache.coyote.AbstractProtocol stop
+INFO: Stopping ProtocolHandler ["http-apr-8080"]
+Jan 24, 2018 4:31:01 AM org.apache.coyote.AbstractProtocol destroy
+INFO: Destroying ProtocolHandler ["http-apr-8080"]
+Jan 24, 2018 4:31:01 AM org.apache.coyote.AbstractProtocol stop
+INFO: Stopping ProtocolHandler ["ajp-apr-8009"]
+Jan 24, 2018 4:31:01 AM org.apache.coyote.AbstractProtocol destroy
+INFO: Destroying ProtocolHandler ["ajp-apr-8009"]
+Jan 24, 2018 4:33:52 AM org.apache.catalina.startup.HostConfig undeploy
+INFO: Undeploying context [/pm]
+Jan 24, 2018 4:33:52 AM org.apache.catalina.startup.ExpandWar deleteDir
+SEVERE: [C:\XpressRules\Policy-Machine-master\apache-tomcat-7.0.82\work\Catalina\localhost\pm\org] could not be completely deleted. The presence of the remaining files may cause problems
+Jan 24, 2018 4:33:52 AM org.apache.catalina.startup.ExpandWar deleteDir
+SEVERE: [C:\XpressRules\Policy-Machine-master\apache-tomcat-7.0.82\work\Catalina\localhost\pm] could not be completely deleted. The presence of the remaining files may cause problems
+Jan 24, 2018 4:33:52 AM org.apache.catalina.startup.ExpandWar delete
+SEVERE: [C:\XpressRules\Policy-Machine-master\apache-tomcat-7.0.82\work\Catalina\localhost\pm] could not be completely deleted. The presence of the remaining files may cause problems
+Jan 24, 2018 4:33:52 AM org.apache.catalina.startup.HostConfig deployWAR
+INFO: Deploying web application archive C:\XpressRules\Policy-Machine-master\apache-tomcat-7.0.82\webapps\pm.war
+Jan 24, 2018 4:34:00 AM org.apache.catalina.loader.WebappClassLoaderBase validateJarFile
+INFO: validateJarFile(c:\XpressRules\Policy-Machine-master\apache-tomcat-7.0.82\webapps\pm\WEB-INF\lib\javax.servlet-api-3.1.0.jar) - jar not loaded. See Servlet Spec 3.0, section 10.7.2. Offending class: javax/servlet/Servlet.class
+Jan 24, 2018 4:34:06 AM org.apache.catalina.startup.TldConfig execute
+INFO: At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+Jan 24, 2018 4:34:07 AM org.apache.catalina.startup.HostConfig deployWAR
+INFO: Deployment of web application archive C:\XpressRules\Policy-Machine-master\apache-tomcat-7.0.82\webapps\pm.war has finished in 15,569 ms
